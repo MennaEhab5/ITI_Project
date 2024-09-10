@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
+}
+
+
+.sect{
+    /*width: 200px;
+    height: 100px;*/
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(54, 22, 87);
+}
+
+#sect01{
+    flex: 1;
+}
+#sect02{
+    flex: 1;
+}
+#sect03{
+   flex: 1;
+}
+#sect04{
+   flex: 1;
+}  
